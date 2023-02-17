@@ -1,7 +1,17 @@
 import React from "react";
+import Info from "./Info";
+import About from "./About";
+import Interests from "./Interests";
+import Footer from "./Footer";
+
 
 export default function App() {
   return (
-    <h1>App works!</h1>
+    <div>
+      <Info/>
+      <About/>
+      <Interests/>
+      <Footer/>
+    </div>
   )
 }
