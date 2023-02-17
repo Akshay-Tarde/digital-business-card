@@ -8,6 +8,10 @@ body {
   margin: 0;
   color: #FFF;
   font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .profile {
@@ -15,6 +19,9 @@ body {
   max-width: 300px;
   max-height: 200px;
   object-fit: cover;
+  object-position: 0 20%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 /* Email Button */
@@ -77,6 +84,7 @@ p {
   width: 300px;
   margin: 0 auto;
   background-color: #1A1B21;
+  border-radius: 15px;
 }
 
 .info {
@@ -96,6 +104,8 @@ p {
   background-color: #161619;
   padding-top: 1em;
   padding-bottom: 1em;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .icons {
