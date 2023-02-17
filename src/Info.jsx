@@ -8,7 +8,7 @@ export default function Info() {
             <img src={profile} alt="Image of Akshay" className="profile" />
             <h1 className="fullname">Akshay Tarde</h1>
             <h3 className="subtitle">Frontend Developer</h3>
-            <a href="mailto: akshaymtarde@gmail.com">
+            <a className="btn" href="mailto: akshaymtarde@gmail.com">
                 <img src={emailIcon} alt="Email Icon"/>
                 Email
             </a>
