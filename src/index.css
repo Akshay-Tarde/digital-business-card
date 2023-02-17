@@ -6,16 +6,44 @@ body {
   background-color: #23252C;
   font-family: 'Inter', sans-serif;
   margin: 0;
+  color: #FFF;
+  font-size: 1rem;
 }
 
 .profile {
   width: 100%;
   max-width: 300px;
-  max-height: 300px;
+  max-height: 200px;
   object-fit: cover;
 }
 
 /* Typography */
+
+.fullname,
+.subtitle {
+  text-align: center;
+}
+
+.fullname {
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-size: .9rem;
+  margin: 0;
+  color: #F3BF99;
+  font-weight: 400;
+}
+
+.section-title {
+  font-size: 1rem;
+}
+
+.section-title,
+p {
+  margin: 0;
+}
+
 
 /* layout */
 
@@ -23,4 +51,10 @@ body {
   width: 300px;
   margin: 0 auto;
   background-color: #1A1B21;
+}
+
+.about,
+.interests,
+.footer {
+  padding: 0 2em;
 }
