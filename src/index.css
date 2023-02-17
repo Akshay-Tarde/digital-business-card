@@ -5,6 +5,22 @@
 body {
   background-color: #23252C;
   font-family: 'Inter', sans-serif;
+  margin: 0;
 }
 
+.profile {
+  width: 100%;
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+/* Typography */
+
 /* layout */
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #1A1B21;
+}
